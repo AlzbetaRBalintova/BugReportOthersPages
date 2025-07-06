@@ -1,0 +1,18 @@
+BUG: Zlý prepočet ceny za tábor
+
+Prostredie: https://www.ckboomerang.sk/online-prihlaska-formular/
+
+POstup testovania: 
+1. otvorím si stránku CK boomerang
+2. kliknem na Prihláška
+3. vyplním formulár
+4. do pola voucher vložím sumu 14,70
+
+BUG: z výslednej sumy sa odpočítalo 1470€ miesto 14,70€
+BUG 2: nezobrazilo sa pole pre možnosť výberu darčekového trička
+BUG 3: gramatická chyba vo formulári prehodené písmenka v texte
+
+Očakávaný výsledok: po vpísaní sumy sa mala celková hodnota znížit o 14,70€
+
+Zistenie: Pole voucher nebralo do úvahy , ale . So sumou 14.70€ bol prepočet správny. 
+Ďalší postup: Volala som do CK Boomerang a chybu im nahlásila. CK Boomerang reagoval príjemne a cenu upravili. 
