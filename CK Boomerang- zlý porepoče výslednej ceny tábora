@@ -10,6 +10,7 @@ POstup testovania:
 
 BUG: z výslednej sumy sa odpočítalo 1470€ miesto 14,70€
 BUG 2: nezobrazilo sa pole pre možnosť výberu darčekového trička
+BUG 3: gramatická chyba vo formulári prehodené písmenka v texte
 
 Očakávaný výsledok: po vpísaní sumy sa mala celková hodnota znížit o 14,70€
 
