@@ -1,0 +1,15 @@
+AAS Academy nie je možné prihlásiť sa na 6 dňový kurz ISTQB certifikácia
+
+Protredie: https://aas-academy.sk/skolenia 
+
+Postup testovania: 
+1. otvorím si stránku AAS Academy 
+2. vyberiem si kurz ISTQB Certifikovaný tester základná úroveň (CTFL) - rozdelené na 6 popoludňajších celkov
+3. vyberiem si termín absolvovania kurzu 
+4. vyplním prihlášku a odošlem
+
+BUG: Na kurz sa nie je možné prihlásiť. Vyhadzuje chybu Nastala chyba Hodnota nesmie mať viac ako 100 znakov. 
+
+Očakávaný výsledok: Prihlásenia sa podarilo, kontaktný formulár sa odoslal, zobrazila sa ďakovná stránka a bližšie informácie. 
+
+Zistená chyba (neskôr): Stránka predvolene doťahovala do poznámky názov kurzu, ktorý bol zmenený a tým pádom obsahoval viac znakov, než pôvodne bolo defaultne povolené. 
